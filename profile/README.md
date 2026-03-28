@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <a href="https://makineceviri.net"><img src="https://img.shields.io/badge/Web-makineceviri.net-4ecdc4?style=flat-square&logo=google-chrome&logoColor=white" alt="Website" /></a>
+  <a href="https://makineceviri.org"><img src="https://img.shields.io/badge/Web-makineceviri.org-4ecdc4?style=flat-square&logo=google-chrome&logoColor=white" alt="Website" /></a>
   <a href="https://discord.com/invite/QDezpy4QtV"><img src="https://img.shields.io/badge/Discord-Topluluğa_Katıl-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://www.linkedin.com/company/makineceviri/"><img src="https://img.shields.io/badge/LinkedIn-Makine_Çeviri-0a66c2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://x.com/Makineceviri"><img src="https://img.shields.io/badge/X-@Makineceviri-000?style=flat-square&logo=x&logoColor=white" alt="X" /></a>
@@ -60,5 +60,5 @@ Açık kaynak projelerimize katkıda bulunmak, çeviri yapmak veya hata bildirme
 ---
 
 <p align="center">
-  <sub>Türk oyuncular tarafından, Türk oyuncular için.</sub>
+  <sub>Türk oyuncuları tarafından, Türk oyuncuları için.</sub>
 </p>

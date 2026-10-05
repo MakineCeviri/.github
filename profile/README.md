@@ -57,6 +57,10 @@ Makine Çeviri, PC oyunlarını Türkçeye çeviren **ücretsiz ve açık kaynak
 
 Açık kaynak projelerimize katkıda bulunmak, çeviri yapmak veya hata bildirmek için [Discord sunucumuza](https://discord.com/invite/QDezpy4QtV) katılabilir ya da doğrudan GitHub üzerinden PR açabilirsin.
 
+### Kurucular
+
+[Sezer UZUN](https://jlceaser.github.io/SezerUzun/) ([@jlceaser](https://github.com/jlceaser)) · [Emirhan AÇIK](https://www.linkedin.com/in/emirhanacik/) — 2019
+
 ---
 
 <p align="center">

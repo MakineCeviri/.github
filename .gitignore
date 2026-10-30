@@ -1,1 +1,6 @@
 .DS_Store
+__pycache__/
+# built by the panels workflow into the output branch
+profile/assets/header.svg
+profile/assets/latest.svg
+profile/assets/repo-*.svg

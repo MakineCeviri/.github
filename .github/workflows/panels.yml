@@ -1,0 +1,33 @@
+name: panels
+
+on:
+  schedule:
+    - cron: "17 */6 * * *" # the catalogue grows during the day; four refreshes keep the count close
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [profile/src/**, .github/workflows/panels.yml]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+      - run: pip install fonttools brotli
+      - working-directory: profile/src
+        run: python make_header.py ../../dist && python make_latest.py ../../dist && python make_repos.py ../../dist
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: Push to the output branch
+        working-directory: dist
+        run: |
+          git init -q -b output
+          git add .
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -qm "panels $(date -u +%F)"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" output

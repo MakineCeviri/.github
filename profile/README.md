@@ -1,68 +1,22 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/MakineCeviri/.github/main/profile/banner.png" width="600" alt="Makine Çeviri" />
-</p>
+<img src="https://raw.githubusercontent.com/MakineCeviri/.github/output/header.svg" width="100%" alt="Makine Çeviri. Türkçe yaması var mı? Launcher'daki yama sayısı her gün Launcher kataloğundan okunur. Makine Çeviri, kâr amacı gütmeyen ve gönüllülerle çalışan bir Türkçe oyun yerelleştirme topluluğu. Yamalar ücretsiz; Makine Launcher onları tek tıkla kurar ve önce değişecek dosyaların yedeğini alır.">
+
+<img src="https://raw.githubusercontent.com/MakineCeviri/.github/output/latest.svg" width="100%" alt="Launcher'a yeni eklenenler: Launcher kataloğundaki en yeni beş Türkçe yama, adı, boyutu ve tarihiyle. Liste her gün güncellenir.">
+
+<img src="assets/steps.svg" width="100%" alt="Nasıl kurulur? Üç adımda. Launcher oyununuzu bulur ve yamayı kurar, siz oyunu açarsınız. Kurmadan önce değişecek dosyaların yedeği alınır.">
+
+<a href="https://github.com/MakineCeviri/Makine-Launcher"><img src="https://raw.githubusercontent.com/MakineCeviri/.github/output/repo-launcher.svg" width="100%" alt="Açık kaynak: Launcher ve eklentileri. Makine-Launcher: Türkçe yamaları bulan, kuran ve kaldıran masaüstü uygulaması; Qt 6, QML ve C++23 ile yazıldı. Lisans AGPL-3.0 + Commons Clause."></a>
+
+<p align="center"><a href="https://github.com/MakineCeviri/Makine-LauncherPlugin-Live"><img src="https://raw.githubusercontent.com/MakineCeviri/.github/output/repo-live.svg" width="50%" alt="Makine-LauncherPlugin-Live: ekrandaki metni gerçek zamanlı okur ve çeviriyi oyunun üstünde gösterir."></a><a href="https://github.com/MakineCeviri/Makine-LauncherPlugin-Hook"><img src="https://raw.githubusercontent.com/MakineCeviri/.github/output/repo-hook.svg" width="50%" alt="Makine-LauncherPlugin-Hook: oyun metnine dosyadan ve bellekten ulaşır."></a><br><a href="https://github.com/MakineCeviri/Makine-LauncherPlugin-Template"><img src="https://raw.githubusercontent.com/MakineCeviri/.github/output/repo-template.svg" width="50%" alt="Makine-LauncherPlugin-Template: kendi Launcher eklentinizi yazmanız için şablon."></a><a href="https://github.com/MakineCeviri/Makine-LauncherPlugins"><img src="https://raw.githubusercontent.com/MakineCeviri/.github/output/repo-registry.svg" width="50%" alt="Makine-LauncherPlugins: resmî ve topluluk eklentilerinin kayıt defteri."></a></p>
 
 <p align="center">
-  <strong>Yapay Zeka Destekli Oyun Yerelleştirme Platformu</strong><br/>
-  <sub>Oyunlarını Türkçe Oyna.</sub>
+  <a href="https://apps.microsoft.com/detail/9NQMT44PRWHG"><img src="assets/links/download.svg" height="38" alt="Launcher'ı indirin (Microsoft Store)"></a>
+  <a href="https://makineceviri.org"><img src="assets/links/site.svg" height="38" alt="makineceviri.org"></a>
+  <a href="https://discord.com/invite/makine-ceviri-885595211806441482"><img src="assets/links/discord.svg" height="38" alt="Discord"></a>
+  <br>
+  <a href="https://x.com/Makineceviri"><img src="assets/links/x.svg" height="38" alt="X: @Makineceviri"></a>
+  <a href="https://www.youtube.com/@Makine-Ceviri"><img src="assets/links/youtube.svg" height="38" alt="YouTube"></a>
+  <a href="https://www.instagram.com/makineceviri/"><img src="assets/links/instagram.svg" height="38" alt="Instagram"></a>
+  <a href="https://www.linkedin.com/company/makineceviri/"><img src="assets/links/linkedin.svg" height="38" alt="LinkedIn"></a>
 </p>
 
-<p align="center">
-  <a href="https://makineceviri.org"><img src="https://img.shields.io/badge/Web-makineceviri.org-4ecdc4?style=flat-square&logo=google-chrome&logoColor=white" alt="Website" /></a>
-  <a href="https://discord.com/invite/QDezpy4QtV"><img src="https://img.shields.io/badge/Discord-Topluluğa_Katıl-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://www.linkedin.com/company/makineceviri/"><img src="https://img.shields.io/badge/LinkedIn-Makine_Çeviri-0a66c2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://x.com/Makineceviri"><img src="https://img.shields.io/badge/X-@Makineceviri-000?style=flat-square&logo=x&logoColor=white" alt="X" /></a>
-</p>
-
----
-
-### Ne Yapıyoruz?
-
-Makine Çeviri, PC oyunlarını Türkçeye çeviren **ücretsiz ve açık kaynak kodlu** bir yerelleştirme platformudur. Oyun dosyalarına dokunmadan, yapay zeka destekli çeviri modelleriyle çalışır.
-
-### Projeler
-
-| Proje | Açıklama | Lisans |
-|-------|----------|--------|
-| [**Makine-Launcher**](https://github.com/MakineCeviri/Makine-Launcher) | Masaüstü launcher — oyun tespiti, yama kurulumu, katalog | AGPL-3.0 + Commons Clause |
-| [**Makine-LauncherPlugin-Hook**](https://github.com/MakineCeviri/Makine-LauncherPlugin-Hook) | Eklenti — GDI hooking, asset parsing, bellek tarama | AGPL-3.0 + Commons Clause |
-| [**Makine-LauncherPlugin-Live**](https://github.com/MakineCeviri/Makine-LauncherPlugin-Live) | Eklenti — gerçek zamanlı ekran OCR ve çeviri overlay | AGPL-3.0 + Commons Clause |
-| [**Makine-LauncherPlugin-Template**](https://github.com/MakineCeviri/Makine-LauncherPlugin-Template) | Eklenti geliştirme şablonu | AGPL-3.0 + Commons Clause |
-| [**Makine-LauncherPlugins**](https://github.com/MakineCeviri/Makine-LauncherPlugins) | Eklenti kayıt defteri (index.json) | AGPL-3.0 + Commons Clause |
-
-### Teknolojiler
-
-<p>
-  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/Qt_6-41CD52?style=flat-square&logo=qt&logoColor=white" />
-  <img src="https://img.shields.io/badge/QML-white?style=flat-square&logo=qt&logoColor=41CD52" />
-  <img src="https://img.shields.io/badge/Rust-000?style=flat-square&logo=rust&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
-  <img src="https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white" />
-</p>
-
-### Nasıl Çalışır?
-
-```
-1. Makine Launcher'ı indir
-2. Oyun kütüphanesinden oyununu seç
-3. Türkçe yamayı tek tıkla uygula
-4. Oyununu Türkçe oyna
-```
-
-### Katkı
-
-Açık kaynak projelerimize katkıda bulunmak, çeviri yapmak veya hata bildirmek için [Discord sunucumuza](https://discord.com/invite/QDezpy4QtV) katılabilir ya da doğrudan GitHub üzerinden PR açabilirsin.
-
-### Kurucular
-
-[Sezer UZUN](https://jlceaser.github.io/SezerUzun/) ([@jlceaser](https://github.com/jlceaser)) · [Emirhan AÇIK](https://www.linkedin.com/in/emirhanacik/) — 2019
-
----
-
-<p align="center">
-  <sub>Türk oyuncuları tarafından, Türk oyuncuları için.</sub>
-</p>
+<p align="center"><sub>Kurucular: <a href="https://jlceaser.github.io/SezerUzun/">Sezer Uzun</a> · <a href="https://www.linkedin.com/in/emirhanacik/">Emirhan Açık</a></sub></p>
